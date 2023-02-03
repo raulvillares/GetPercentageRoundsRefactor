@@ -20,11 +20,11 @@ public static class PercentageRoundsGenerator
             return "🔵🔵🔵🔵🔵⚪⚪⚪⚪⚪";
         if (percentage > 0.5 && percentage <= 0.6)
             return "🔵🔵🔵🔵🔵🔵⚪⚪⚪⚪";
-        if (percentage > 0.5 && percentage <= 0.7)
+        if (percentage > 0.6 && percentage <= 0.7)
             return "🔵🔵🔵🔵🔵🔵🔵⚪⚪⚪";
-        if (percentage > 0.6 && percentage <= 0.8)
+        if (percentage > 0.7 && percentage <= 0.8)
             return "🔵🔵🔵🔵🔵🔵🔵🔵⚪⚪";
-        if (percentage > 0.7 && percentage <= 0.9)
+        if (percentage > 0.8 && percentage <= 0.9)
             return "🔵🔵🔵🔵🔵🔵🔵🔵🔵⚪";
         return "🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵";
     }
